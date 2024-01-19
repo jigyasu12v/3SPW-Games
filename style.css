@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.choices {
+
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  display: flex;
+  
+
+}
+
+
+
+.choice{
+    width: 200px;
+    height: 200px;
+}
+
+.choice-image:hover{
+    opacity: 150%;
+    padding: 0.5rem;
+    cursor: pointer;
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    
+}
+
+.backg{
+    background-image: url("images/background_img.png");
+    
+    
+}
+
+
+
+img{
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+h1{
+    color:coral;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+
+    line-height: 5rem;
+}
+
+.score2{
+    justify-content:right;
+    padding-right: 3rem;
+    font-size: larger;
+    box-sizing: content-box;  
+    border: 7px solid blue;
+    box-sizing: content-box;  
+    width: 300px;
+    height: 150px;
+    padding: 30px;  
+    border: 7px solid blue;
+    float: right;
+
+    
+    
+    
+}
+
+.score1{
+
+    justify-content:left;
+    padding-top: 5rem;
+    padding-left: 3rem;
+    font-size: larger;
+    box-sizing: content-box;  
+    width: 300px;
+    height: 150px;
+    padding: 30px;  
+    border: 7px solid blue;
+    float: left;
+  }
+
+  #user-score , #computer-score{
+    font-size: xx-large
+  }
+
+
+  @media screen and (max-width: 550px){
+    img{
+        width: 100px;
+        height: 70px;
+    }
+  }
+
+
+  
+
+  @media screen and (max-width: 645px){
+    
+    h1{
+        font-size:larger;
+    }
+  }
+
+  
